@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/synergieoi/static/css/main.45c625dd.css",
+    "main.js": "/synergieoi/static/js/main.25fae69e.js",
+    "static/media/presentation.jpg": "/synergieoi/static/media/presentation.45a5a06718d13b247f30.jpg",
+    "static/media/synergieoi.png": "/synergieoi/static/media/synergieoi.38210f3fc140637c1acb.png",
+    "static/media/chart2.svg": "/synergieoi/static/media/chart2.990720d1744239ebed1346d5899249ae.svg",
+    "static/media/chart1.svg": "/synergieoi/static/media/chart1.5574929fe59b9d7fda5785f4339475b7.svg",
+    "static/media/chart3.svg": "/synergieoi/static/media/chart3.f181f85c1dc33d8b0adbd2b3c9c976fb.svg",
+    "static/media/card2.svg": "/synergieoi/static/media/card2.aac5663210d515d1b92438dbff8c98d2.svg",
+    "static/media/card3.svg": "/synergieoi/static/media/card3.88d805818bc395441b7d8357e066d7af.svg",
+    "static/media/card1.svg": "/synergieoi/static/media/card1.4e4d18fbf959fd3d2b47cb244573a353.svg",
+    "index.html": "/synergieoi/index.html",
+    "static/media/euro.svg": "/synergieoi/static/media/euro.888082ae21ecb77a6d6924b4a92eab43.svg",
+    "static/media/map.svg": "/synergieoi/static/media/map.88316a8b4e5860bdfb2e76ce49aa2669.svg",
+    "static/media/clock.svg": "/synergieoi/static/media/clock.5920df31f3490ea650ab61df1c3c38d6.svg",
+    "main.45c625dd.css.map": "/synergieoi/static/css/main.45c625dd.css.map",
+    "main.25fae69e.js.map": "/synergieoi/static/js/main.25fae69e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45c625dd.css",
+    "static/js/main.25fae69e.js"
+  ]
+}
