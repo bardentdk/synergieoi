@@ -87,6 +87,7 @@ export default function App() {
             <Route path="/nos-formations" element={<NosFormations />} />
             <Route path="/team" element={<TeamSOI />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Home />} />
           </Routes>
           <Footer />
         </Router>
