@@ -18,6 +18,18 @@ const router = createBrowserRouter([
         element:<Home />,        
       },
       {
+        path:'/synergieoi',
+        element:<Home />,        
+      },
+      {
+        path:'/synergie',
+        element:<Home />,        
+      },
+      {
+        path:'/synoi',
+        element:<Home />,        
+      },
+      {
         path:'actus',
         element:<Single />,        
       },
@@ -39,7 +51,7 @@ const router = createBrowserRouter([
       },
       
     ],
-    // errorElement:<PageError />,
+    errorElement:<PageError />,
   }
 ]);
 
