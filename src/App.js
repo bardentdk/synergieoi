@@ -79,9 +79,9 @@ export default function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/synergieoi" element={<Home/> } />
-            <Route path="/synoi" element={<Home />} />
-            <Route path="/synergie" element={<Home />} />
+            <Route path="/synergieoi/" element={<Home/> } />
+            <Route path="/synoi/" element={<Home />} />
+            <Route path="/synergie/" element={<Home />} />
             <Route path="/actus" element={<Single />} />
             <Route path="/nos-centres" element={<NosCentres />} />
             <Route path="/nos-formations" element={<NosFormations />} />
