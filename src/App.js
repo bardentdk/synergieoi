@@ -80,6 +80,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/synergieoi/" element={<Home/> } />
+            <Route path="/synergieoi/team" element={<TeamSOI/> } />
             <Route path="/synoi/" element={<Home />} />
             <Route path="/synergie/" element={<Home />} />
             <Route path="/actus" element={<Single />} />
@@ -88,7 +89,7 @@ export default function App() {
             <Route path="/team" element={<TeamSOI />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
-            <Route path="/actus?{id}" element={<Single />} />
+            <Route path="*/team" element={<TeamSOI />} />
           </Routes>
           <Footer />
         </Router>
