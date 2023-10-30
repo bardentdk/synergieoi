@@ -88,6 +88,7 @@ export default function App() {
             <Route path="/team" element={<TeamSOI />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
+            <Route path="/actus?{id}" element={<Single />} />
           </Routes>
           <Footer />
         </Router>

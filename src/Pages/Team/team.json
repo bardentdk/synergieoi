@@ -1,0 +1,101 @@
+[
+    {
+        "id":1,
+        "identity": "Vanessa SETTAMA",
+        "role": "Direction",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/6075/6075787.png"
+    },
+    {
+        "id":2,
+        "identity": "Alexandra Marie CORRE",
+        "role": "Responsable Service Compta",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/6075/6075787.png"
+    },
+    {
+        "id":3,
+        "identity": "Magalie SETTAMA",
+        "role": "Assistante Compta",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/6075/6075787.png"
+    },
+    {
+        "id":4,
+        "identity": "Cévric RANGANAYAGUY",
+        "role": "Assistant Administratif",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    },
+    {
+        "id":5,
+        "identity": "Sabrina LEBIHAN MOUTALE",
+        "role": "Responsable Pole Formation",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/6075/6075787.png"
+    },
+    {
+        "id":6,
+        "identity": "Jérôme OLLIVIER",
+        "role": "Responsable Pole Logistique",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    },
+    {
+        "id":7,
+        "identity": "Annaelle ITEMA RIVIERE",
+        "role": "Assistante de Gestion",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/6075/6075787.png"
+    },
+    {
+        "id":8,
+        "identity": "Laurent BÉTON",
+        "role": "Pole Logistique",
+        "secteur":"est",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    },
+    {
+        "id":9,
+        "identity": "Leslie VAYTILINGOM",
+        "role": "Responsable de site",
+        "secteur":"nord",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    }, 
+    {
+        "id":10,
+        "identity": "Marion AMOUNY",
+        "role": "Assistante de Formation",
+        "secteur":"nord",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    },
+    {
+        "id":11,
+        "identity": "Yannick CLAUDE",
+        "role": "Responsable de site",
+        "secteur":"ouest",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    }, 
+    {
+        "id":12,
+        "identity": "Ornella DE PALMAS",
+        "role": "Assistante de Gestion",
+        "secteur":"ouest",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    }, 
+    {
+        "id":13,
+        "identity": "Stéphane RAMBOUILLE",
+        "role": "Responsable de site",
+        "secteur":"sud",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    }, 
+    {
+        "id":14,
+        "identity": "Orlane ELLAMA TRULES",
+        "role": "Assistante de Gestion",
+        "secteur":"sud",
+        "img":"https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+    }
+]
+
