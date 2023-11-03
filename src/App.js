@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route, NavLink} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { Single } from "./Pages/Single/Single";
 import Navbar from "./components/Navbar/Navbar";
 import PageError from "./PageError";
