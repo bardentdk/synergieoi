@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/synergieoi/static/css/main.1bc9c5f4.css",
-    "main.js": "/synergieoi/static/js/main.8fceec2f.js",
+    "main.css": "/synergieoi/static/css/main.2c044abd.css",
+    "main.js": "/synergieoi/static/js/main.6ec25b4a.js",
     "static/media/presentation.jpg": "/synergieoi/static/media/presentation.45a5a06718d13b247f30.jpg",
     "static/media/aph.jpeg": "/synergieoi/static/media/aph.38c39413f19f39b5493e.jpeg",
     "static/media/stee.jpeg": "/synergieoi/static/media/stee.87c809ecd138dc851053.jpeg",
@@ -18,11 +18,11 @@
     "static/media/euro.svg": "/synergieoi/static/media/euro.888082ae21ecb77a6d6924b4a92eab43.svg",
     "static/media/map.svg": "/synergieoi/static/media/map.88316a8b4e5860bdfb2e76ce49aa2669.svg",
     "static/media/clock.svg": "/synergieoi/static/media/clock.5920df31f3490ea650ab61df1c3c38d6.svg",
-    "main.1bc9c5f4.css.map": "/synergieoi/static/css/main.1bc9c5f4.css.map",
-    "main.8fceec2f.js.map": "/synergieoi/static/js/main.8fceec2f.js.map"
+    "main.2c044abd.css.map": "/synergieoi/static/css/main.2c044abd.css.map",
+    "main.6ec25b4a.js.map": "/synergieoi/static/js/main.6ec25b4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bc9c5f4.css",
-    "static/js/main.8fceec2f.js"
+    "static/css/main.2c044abd.css",
+    "static/js/main.6ec25b4a.js"
   ]
 }
