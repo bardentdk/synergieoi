@@ -1,13 +1,14 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { Single } from "./Pages/Single/Single";
 import Navbar from "./components/Navbar/Navbar";
-import PageError from "./PageError";
 import Contact from "./Pages/Contact/Contact";
 import NosFormations from "./Pages/nosFormations/nosFormations";
 import NosCentres from "./Pages/nosCentres/nosCentres";
 import TeamSOI from "./Pages/Team/Team";
 import Home from "./Pages/Home/Home";
 import Footer from './components/Footer/Footer';
+import Login from "./admin/Login";
+import Dashboard from "./admin/Dashboard/Dashboard";
 
 
 
@@ -76,7 +77,7 @@ export default function App() {
     <>
       <div className="App">
         <Router>
-          <Navbar />
+        <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/synergieoi/" element={<Home/> } />
@@ -90,6 +91,8 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
             <Route path="*/team" element={<TeamSOI />} />
+            <Route path="/administration" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
           <Footer />
         </Router>

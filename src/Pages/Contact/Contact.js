@@ -3,15 +3,18 @@ import emailjs from "@emailjs/browser";
 
 export default function Contact(){
     const form = useRef();
+    const [toggle, setToggle] = useState(false);
     const sendEmail = (e) =>{
         e.preventDefault();
 
         emailjs.sendForm("service_2rqqnqu", "template_6gt660h", form.current, "4B7GDhgtzD3kv3XvP").then(
             (result) => {
                 console.log(result.text);
+                setToggle(true);
             },
             (error) => {
                 console.log(error.text);
+                return errorAlert;
             }
         )
     }
@@ -23,7 +26,6 @@ export default function Contact(){
     const [objet, setObjet] = useState();
     const [content, setContent] = useState();
 
-    const [toggle = false, setToggle] = useState();
     const handleSubmit = (e) =>{
         e.preventDefault();
         // console.log(new FormData(e.target.value))
@@ -42,6 +44,18 @@ export default function Contact(){
         // var objet = contactF.get('objet');
         // var content = contactF.get('content');
     }
+    const [alertToggle, setAlertToggle] = useState(true);
+    const showAlert = "mx-32 p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 flex ";
+    const hideAlert = 'hidden';
+    const successAlert = <div className={alertToggle ? showAlert : hideAlert} role="alert" >
+                            <span className="font-medium">Votre message a été transmis avec succès Nous reviendrons vers vous dès que possible. Merci de ne pas renouveler votre demande plusieurs fois afin d'éviter une surchage.</span>
+                            <button className="font-bold" onClick={() => setAlertToggle(false)}>
+                                X
+                            </button>
+                        </div>;
+    const errorAlert = <div className="mx-32 p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+                            <span className="font-medium">Danger alert!</span> Change a few things up and try submitting again.
+                        </div>;
     const confirmation = 
         <h2 className="grid grid-cols-1 mx-5 md:mx-20 bg-indigo-300 p-3 rounded-lg text-slate-800">
             <div className="">
@@ -53,9 +67,9 @@ export default function Contact(){
         </h2>;
     return(
         <>
-            {toggle ? confirmation : ''}
+            {toggle ? successAlert : ""}
             <form ref={form} className="mx-20 my-10 md:mx-32 md:my-20" onSubmit={sendEmail}>
-                <h2 className="font-bold text-2xl uppercase">Besoin d'une information particulière ?</h2>
+                <h2 className=" text-2xl md:text-6xl animate-pulse text-slate-700 font-black uppercase">Besoin d'une information particulière ?</h2>
                 <p className="mb-10">Remplissez ce formulaire attentivement et vous serez contacté !</p>
                 <div className="grid grid-cols-1 md:grid-cols-1 md:gap-10">
                     <div className="mb-6">
